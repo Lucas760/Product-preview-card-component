@@ -1,0 +1,99 @@
+body {
+  color: #40514E;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  background-color: #D0B8A8;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  width: 75%;
+}
+
+h2 {
+  color: #6C7289;
+}
+
+p {
+  color: #6C7289;
+  width: 75%;
+}
+
+main {
+  width: 48rem;
+  height: 31.25rem;
+  margin: 10rem auto;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.product-img {
+  border-radius: 12px;
+  margin: auto;
+  float: left;
+  margin-right: 2rem;
+  height: 486px;
+  transition: transform .1s;
+  }
+
+.product-img:hover {
+  transform: scale(1.05);
+  transition: ease-out 1s;
+}
+
+.attribution {
+  margin: 5rem auto;
+  margin-left: 20rem;
+}
+
+.main {
+  margin-left: 28rem;
+}
+
+.new-price {
+  display: inline;
+  margin-right: 1rem;
+  color: #3c8066;
+}
+
+.old-price {
+  color: #6C7289;
+  text-decoration: line-through;
+}
+
+.description {
+  resize: none;
+  padding-top: 1rem;
+  border-radius: 12px;
+  background-color: White;
+}
+
+.myButton {
+	background-color:#3c8066;
+	border-radius:12px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-bottom: 1rem;
+}
+.myButton:hover {
+	background-color:#1a4233;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#icon-cart {
+  margin-right: 1rem;
+}
